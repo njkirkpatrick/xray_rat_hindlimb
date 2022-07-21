@@ -22,7 +22,7 @@ We tested our models for consistency by training new models on three separate oc
 ## Usage
 ### Using pre-trained models on your x-ray videos
 1. Follow the installation instructions for [DeepLabCut-live](https://github.com/DeepLabCut/DeepLabCut-live)
-2. Download and expand the xray_rat_hindlimb models (xray_rat_hindlimb-cam1.tar.gz and xray_rat_hindlimb-cam2.tar.gz)
+2. Download and expand the [xray_rat_hindlimb models](https://www.dropbox.com/sh/qqc26lmu1mmaqt8/AAAuaZzn2nA5FPhwN4N3KsmWa?dl=0) (xray_rat_hindlimb-cam1.tar.gz and xray_rat_hindlimb-cam2.tar.gz)
 3. Download the xray_rat_hindlimb-XROMMTOOLS.py code from this repository
 4. Determine which model is best suited for your video
 - With the animal walking towards the left side of the frame, if the animal’s RIGHT hindlimb is to the LEFT SIDE of the left hindlimb, use Cam1’s model
@@ -39,7 +39,7 @@ Like all ML tools, the quality of the training data is critically important. Whe
 
 Retrained performance is likely to be high so long as your videos have the animal walking in the same direction (towards the left of the frame), and the appropriate camera’s model is chosen for your views (camera 1 has right hindlimb to the left of the left hindlimb, and camera 2 has the right hindlimb to the right of the left hindlimb).
 
-To retrain the models, [you can find the full project files for both models here](https://www.dropbox.com/sh/4k702tprie32h0r/AADukGTcMwFLVPUM55-ge3A3a?dl=0)
+To retrain the models, [you can find the full project files for both models here](https://www.dropbox.com/sh/qqc26lmu1mmaqt8/AAAuaZzn2nA5FPhwN4N3KsmWa?dl=0)
 
 These projects can be retrained using the code provided in [XROMM_DLCTools](https://github.com/jdlaurence/XROMM_DLCTools)
 
