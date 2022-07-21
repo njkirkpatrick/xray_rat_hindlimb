@@ -33,7 +33,7 @@ Our models should be able to be applied to your x-ray videos of rat locomotion. 
 
 ![horse_sideview](https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1589336895097-Q0O32XYRVOHP8SDM0I2G/ezgif.com-video-to-gif%2B%282%29.gif?format=750w)
 
-Like all ML tools, the quality of the training data is critically important. When manually labeling additional frames, be sure to adhere to the landmark conventions shown, and use XMALab rather than the DeepLabCut GUI to minimize reprojection error.
+Like all ML tools, the quality of the training data is critically important. When manually labeling additional frames, be sure to adhere to the landmark conventions, and use XMALab rather than the DeepLabCut GUI to minimize reprojection error. ![Marker Locations](Marker Locations.png)
 
 Retrained performance is likely to be high so long as your videos have the animal walking in the same direction (towards the left of the frame), and the appropriate camera’s model is chosen for your views (camera 1 has right hindlimb to the left of the left hindlimb, and camera 2 has the right hindlimb to the right of the left hindlimb).
 
