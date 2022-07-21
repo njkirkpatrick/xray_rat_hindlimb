@@ -1,5 +1,5 @@
 # xray_rat_hindlimb
-[You can check out (and cite!) our paper here](www.google.com)
+[You can check out (and cite!) our paper here](https://www.google.com)
 
 DeepLabCut models to label rat hindlimb skeletal landmarks in bi-planar x-ray video
 Despite the prevalence of rat models to study human disease and injury, existing methods for quantifying behavior through skeletal movements are problematic due to skin movement inaccuracies associated with optical video analysis; or, require invasive implanted markers or time consuming manual rotoscoping for x-ray video approaches. We examined the use of a machine learning tool, DeepLabCut, to perform automated, markerless tracking in bi-planar x-ray videos of locomoting rats. Models were trained on 590 pairs of video frames to identify 19 unique skeletal landmarks of the pelvic limb. Accuracy, precision, and time savings were assessed. Machine-identified landmarks deviated from manually labeled counterparts by 2.4±0.2 mm (n=1,710 landmarks). DeepLabCut decreased analysis time by over three orders of magnitude (1,627x) compared to manual labeling. Distribution of these models may enable the processing of a large volume of accurate x-ray kinematics locomotion data in a fraction of the time without requiring surgically implanted markers.
