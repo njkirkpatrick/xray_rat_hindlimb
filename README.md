@@ -4,6 +4,8 @@ Despite the prevalence of rat models to study human disease and injury, existing
 
 This work is described in detail in the publication DeepLabCut Increases Markerless Tracking Efficiency in X-Ray Video Analysis of Rodent Locomotion by Nathan J. Kirkpatrick, Robert J. Butera and Young-Hui Chang published in Journal of Experimental Biology, 2022.
 
+![Movie](Kirkpatrick_Butera_Chang_2022_Movie_1.gif)
+
 ## Data Collection
 ### Animal models
 Biplanar high speed x-ray videos (Fig 1A, 45 kV, 100 mA, 100 fps; Imaging Systems & Service, Inc, Painesville, OH) were recorded from a total of 6 adult male Lewis rats (Rattus norvegicus) performing treadmill locomotion in accordance with protocols approved by the Georgia Institute of Technology’s IACUC. Recordings of a reference object with a known angle moving around the capture volume of our x-ray motion analysis system report a mean error of 0.2 degrees (a measure of accuracy) and a variance of 0.8 degrees (a measure of precision). Treadmill position within the capture volume varied between recording sessions, but the direction of gait for all trials was oriented towards the left of the frame for both cameras.
