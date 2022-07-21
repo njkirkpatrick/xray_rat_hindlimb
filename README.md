@@ -22,7 +22,7 @@ We tested our models for consistency by training new models on three separate oc
 ## Usage
 ### Using pre-trained models on your x-ray videos
 1. Follow the installation instructions for [DeepLabCut-live](https://github.com/DeepLabCut/DeepLabCut-live)
-2. Download and expand the xray_rat_hindlimb models from our GitHub directory
+2. Download and expand the xray_rat_hindlimb models (xray_rat_hindlimb-cam1.tar.gz and xray_rat_hindlimb-cam2.tar.gz)
 3. Download the xray_rat_hindlimb-XROMMTOOLS.py code from this repository
 4. Determine which model is best suited for your video
 - With the animal walking towards the left side of the frame, if the animal’s RIGHT hindlimb is to the LEFT SIDE of the left hindlimb, use Cam1’s model
@@ -47,5 +47,9 @@ These projects can be retrained using the code provided in [XROMM_DLCTools](http
 Kane, Gary A., et al. “Real-Time, Low-Latency Closed-Loop Feedback Using Markerless Posture Tracking.” ELife, vol. 9, Dec. 2020, p. e61909. [Link to paper](https://doi.org/10.7554/eLife.61909)
 
 Knorlein, B. J., Baier, D. B., Gatesy, S. M., Laurence-Chasen, J. D. and Brainerd, E. L. (2016). Validation of XMALab software for marker-based XROMM. The Journal of Experimental Biology, jeb.145383. [Link to paper](https://journals.biologists.com/jeb/article/219/23/3701/16639/Validation-of-XMALab-software-for-marker-based)
+
+Laurence-Chasen, J. D., et al. “Integrating XMALab and DeepLabCut for High-Throughput XROMM.” Journal of Experimental Biology, Jan. 2020, p. jeb.226720. [Link to paper](https://doi.org/10.1242/jeb.226720)
+
+Mathis, A., Mamidanna, P., Cury, K.M. et al. DeepLabCut: markerless pose estimation of user-defined body parts with deep learning. Nat Neurosci 21, 1281–1289 (2018). [Link to paper](https://doi.org/10.1038/s41593-018-0209-y)
 
 Mathis, Alexander, et al. "Pretraining boosts out-of-domain robustness for pose estimation." Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision. 2021. [Link to paper](https://openaccess.thecvf.com/content/WACV2021/html/Mathis_Pretraining_Boosts_Out-of-Domain_Robustness_for_Pose_Estimation_WACV_2021_paper.html)
