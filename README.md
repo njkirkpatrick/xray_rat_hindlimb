@@ -30,6 +30,7 @@ We tested our models for consistency by training new models on three separate oc
 
 ### Retraining our models using your additional new labeled frames
 Our models should be able to be applied to your x-ray videos of rat locomotion. We believe this based on the generalizability of previous optical-video models that have demonstrated an ability to adapt to new videos after being briefly retrained, such as this horse example (Mathis, et al. 2021). 
+
 ![horse_sideview](https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1589336895097-Q0O32XYRVOHP8SDM0I2G/ezgif.com-video-to-gif%2B%282%29.gif?format=750w)
 
 Like all ML tools, the quality of the training data is critically important. When manually labeling additional frames, be sure to adhere to the landmark conventions shown, and use XMALab rather than the DeepLabCut GUI to minimize reprojection error.
